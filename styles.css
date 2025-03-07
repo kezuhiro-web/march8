@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(to bottom, #4CAF50, #005d05);
+    font-family: 'Script', cursive;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://img.icons8.com/?size=100&id=87&format=png&color=000000');
+    background-size: 50px 50px;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(70%);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+    font-size: 42px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255)
+}
+
+p {
+    font-size: 34px;
+    text-shadow: 0 0 10px rgb(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255)
+}
+
+.emoji {
+    font-size: 150px;
+}
